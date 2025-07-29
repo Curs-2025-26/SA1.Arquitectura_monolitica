@@ -20,5 +20,4 @@ Si no apareix el botó, instal·la l'extensió REST Client des del Marketplace d
 
 #### Petició GET per llegir els items
 
-Al fitxer peticions.http, fes clic al botó “Send Request” que apareix damunt la línia GET....
-També ho pots vore obrint el navegador
+Des del navegador que es pot obrir des del codespace es pot accedir a /items per a vore el que insertem 
