@@ -4,6 +4,10 @@ const app = express();
 let items = [];
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.redirect('/items');
+});
+
 app.get('/items', (req, res) => res.json(items));
 app.post('/items', (req, res) => {
   const item = { id: Date.now(), ...req.body };
